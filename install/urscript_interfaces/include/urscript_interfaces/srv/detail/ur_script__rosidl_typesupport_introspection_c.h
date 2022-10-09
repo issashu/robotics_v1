@@ -1,0 +1,1 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces/rosidl_typesupport_introspection_c/urscript_interfaces/srv/detail/ur_script__rosidl_typesupport_introspection_c.h

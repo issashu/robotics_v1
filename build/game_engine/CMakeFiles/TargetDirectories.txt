@@ -1,0 +1,9 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/game_engine/CMakeFiles/install/strip.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/game_engine/CMakeFiles/install/local.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/game_engine/CMakeFiles/install.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/game_engine/CMakeFiles/list_install_components.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/game_engine/CMakeFiles/rebuild_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/game_engine/CMakeFiles/edit_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/game_engine/CMakeFiles/game_engine_uninstall.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/game_engine/CMakeFiles/uninstall.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/game_engine/CMakeFiles/game_engine.dir

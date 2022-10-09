@@ -1,0 +1,1 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/ament_cmake_environment_hooks/pythonpath.sh

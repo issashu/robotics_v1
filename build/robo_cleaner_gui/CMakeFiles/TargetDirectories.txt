@@ -1,0 +1,10 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/install/strip.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/install/local.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/install.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/list_install_components.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/rebuild_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/edit_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/test.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/robo_cleaner_gui.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/robo_cleaner_gui_uninstall.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_gui/CMakeFiles/uninstall.dir

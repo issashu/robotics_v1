@@ -1,0 +1,127 @@
+[0.045s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils': CMAKE_PREFIX_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/manager_utils -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils
+[0.187s] -- The CXX compiler identification is Clang 10.0.0
+[0.191s] -- Check for working CXX compiler: /usr/bin/clang++
+[0.379s] -- Check for working CXX compiler: /usr/bin/clang++ -- works
+[0.379s] -- Detecting CXX compiler ABI info
+[0.510s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Detecting CXX compile features
+[0.516s] -- Detecting CXX compile features - done
+[0.517s] -- Found cmake_helpers: 1.0.0 (/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake)
+[0.525s] -- Looking for C++ include pthread.h
+[0.648s] -- Looking for C++ include pthread.h - found
+[0.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.856s] -- Looking for pthread_create in pthreads
+[1.011s] -- Looking for pthread_create in pthreads - not found
+[1.011s] -- Looking for pthread_create in pthread
+[1.248s] -- Looking for pthread_create in pthread - found
+[1.248s] -- Found Threads: TRUE  
+[1.248s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.278s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.278s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.558s] -- Configuring done
+[1.563s] -- Generating done
+[1.564s] -- Build files have been written to: /home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils
+[1.568s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils' returned '0': CMAKE_PREFIX_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/manager_utils -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils
+[1.568s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils': CMAKE_PREFIX_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils -- -j4 -l4
+[1.626s] [35m[1mScanning dependencies of target manager_utils[0m
+[1.666s] [  3%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/NumberCounter.cpp.o[0m
+[1.671s] [  7%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/DynamicImage.cpp.o[0m
+[1.684s] [ 11%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o[0m
+[1.692s] [ 14%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/Sprite.cpp.o[0m
+[2.002s] [ 18%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/Fbo.cpp.o[0m
+[2.190s] [ 22%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o[0m
+[2.319s] [ 25%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o[0m
+[2.374s] [ 29%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/animation/AnimationBase.cpp.o[0m
+[2.588s] [ 33%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/animation/FrameAnimation.cpp.o[0m
+[2.648s] [ 37%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/animation/PositionAnimation.cpp.o[0m
+[2.697s] [ 40%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/animation/PulseAnimation.cpp.o[0m
+[2.797s] [ 44%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/animation/RotationAnimation.cpp.o[0m
+[2.852s] [ 48%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/drawing/animation/defines/CommonAnimationStructs.cpp.o[0m
+[2.852s] [ 51%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o[0m
+[2.930s] [ 55%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/input/Scroller.cpp.o[0m
+[2.971s] [ 59%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o[0m
+[3.007s] [ 62%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o[0m
+[3.082s] [ 66%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o[0m
+[3.102s] [ 70%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/managers/SoundMgr.cpp.o[0m
+[3.510s] [ 74%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/managers/TimerMgr.cpp.o[0m
+[3.725s] [ 77%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/sound/Music.cpp.o[0m
+[3.765s] [ 81%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/sound/Sound.cpp.o[0m
+[3.771s] [ 85%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/sound/SoundWidget.cpp.o[0m
+[3.879s] [ 88%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/time/TimerClientSpeedAdjustable.cpp.o[0m
+[3.882s] [ 92%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/time/TimerClient.cpp.o[0m
+[3.982s] [ 96%] [32mBuilding CXX object CMakeFiles/manager_utils.dir/src/time/UserTimerClient.cpp.o[0m
+[4.516s] [100%] [32m[1mLinking CXX static library libmanager_utils.a[0m
+[4.639s] [100%] Built target manager_utils
+[4.661s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils' returned '0': CMAKE_PREFIX_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils -- -j4 -l4
+[5.603s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils': CMAKE_PREFIX_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils
+[5.640s] -- Install configuration: "Debug"
+[5.640s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/package.xml
+[5.640s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/lib/manager_utils/libmanager_utils.a
+[5.648s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/ament_index/resource_index/packages/manager_utils
+[5.648s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/hook/ament_prefix_path.dsv
+[5.648s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/hook/ros_package_path.dsv
+[5.648s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/ament_index/resource_index/package_run_dependencies/manager_utils
+[5.648s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/ament_index/resource_index/parent_prefix_path/manager_utils
+[5.648s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/environment/ament_prefix_path.sh
+[5.649s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/environment/ament_prefix_path.dsv
+[5.649s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/environment/path.sh
+[5.649s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/environment/path.dsv
+[5.649s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/local_setup.bash
+[5.649s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/local_setup.sh
+[5.649s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/local_setup.zsh
+[5.649s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/local_setup.dsv
+[5.656s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/package.dsv
+[5.656s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/ament_index/resource_index/packages/manager_utils
+[5.656s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/cmake/manager_utilsConfig.cmake
+[5.656s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/cmake/manager_utilsConfig-version.cmake
+[5.656s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/share/manager_utils/package.xml
+[5.656s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/lib/libmanager_utils.a
+[5.658s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include
+[5.658s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils
+[5.658s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/time
+[5.658s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/time/TimerClientSpeedAdjustable.h
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/time/TimerClient.h
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/time/UserTimerClient.h
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/time/defines
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/time/defines/TimerClientDefines.h
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/Widget.h
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/NumberCounter.h
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/DynamicImage.h
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/Image.h
+[5.659s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/Text.h
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/Sprite.h
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation/PulseAnimation.h
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation/AnimationBase.h
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation/AnimationEndCb.h
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation/RotationAnimation.h
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation/defines
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation/defines/AnimationDefines.h
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation/defines/CommonAnimationStructs.h
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation/PositionAnimation.h
+[5.660s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/animation/FrameAnimation.h
+[5.668s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/drawing/Fbo.h
+[5.668s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers
+[5.668s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers/MgrBase.h
+[5.668s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers/SoundMgr.h
+[5.668s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers/DrawMgr.h
+[5.668s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers/TimerMgr.h
+[5.668s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers/ManagerHandler.h
+[5.668s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers/RsrcMgr.h
+[5.668s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers/config
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers/config/DrawMgrConfig.h
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/managers/config/ManagerHandlerConfig.h
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/sound
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/sound/Music.h
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/sound/SoundWidgetEndCb.h
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/sound/SoundWidget.h
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/sound/Sound.h
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/input
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/input/ButtonBase.h
+[5.669s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/input/Scroller.h
+[5.670s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/lib/cmake/manager_utils/manager_utilsTargets.cmake
+[5.670s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/lib/cmake/manager_utils/manager_utilsTargets-debug.cmake
+[5.670s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/lib/cmake/manager_utils/manager_utilsConfig.cmake
+[5.673s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils' returned '0': CMAKE_PREFIX_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers:/opt/ros/foxy PKG_CONFIG_PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/aarch64-linux-gnu/pkgconfig:/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/lib/pkgconfig /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/manager_utils

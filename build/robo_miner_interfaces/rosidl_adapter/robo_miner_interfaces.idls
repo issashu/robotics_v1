@@ -1,0 +1,10 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:msg/FieldPoint.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:msg/RobotPositionResponse.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:msg/UInt8MultiArray.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:msg/RobotMoveType.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:msg/UserAuthenticate.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:srv/ActivateMiningValidate.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:srv/RobotMove.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:srv/LongestSequenceValidate.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:srv/FieldMapValidate.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces/rosidl_adapter/robo_miner_interfaces:srv/QueryInitialRobotPosition.idl

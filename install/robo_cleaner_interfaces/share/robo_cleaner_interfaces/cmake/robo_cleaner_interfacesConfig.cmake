@@ -1,0 +1,1 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/ament_cmake_core/robo_cleaner_interfacesConfig.cmake

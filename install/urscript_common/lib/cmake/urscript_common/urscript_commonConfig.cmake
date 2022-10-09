@@ -1,0 +1,1 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_dev/urscript/urscript_common/urscript_commonConfig.cmake

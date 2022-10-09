@@ -1,0 +1,14 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/ProgramState.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/RobotMode.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/SafetyMode.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/AddToLog.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetLoadedProgram.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetProgramState.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetRobotMode.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetSafetyMode.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramRunning.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramSaved.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Load.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Popup.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/RawRequest.idl
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:action/SetMode.idl

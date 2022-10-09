@@ -1,0 +1,1 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_generator_c/robo_cleaner_interfaces/msg/rosidl_generator_c__visibility_control.h

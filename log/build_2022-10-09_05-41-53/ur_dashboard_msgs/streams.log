@@ -1,0 +1,503 @@
+[0.018s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs
+[0.072s] -- The C compiler identification is GNU 9.4.0
+[0.143s] -- The CXX compiler identification is Clang 10.0.0
+[0.144s] -- Check for working C compiler: /usr/bin/cc
+[0.214s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.214s] -- Detecting C compiler ABI info
+[0.268s] -- Detecting C compiler ABI info - done
+[0.273s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/clang++
+[0.373s] -- Check for working CXX compiler: /usr/bin/clang++ -- works
+[0.373s] -- Detecting CXX compiler ABI info
+[0.462s] -- Detecting CXX compiler ABI info - done
+[0.469s] -- Detecting CXX compile features
+[0.469s] -- Detecting CXX compile features - done
+[0.470s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.485s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.485s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.576s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.599s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.705s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.727s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.814s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[0.875s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.012s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.105s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.140s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.141s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.159s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.160s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.160s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.160s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[1.172s] -- Found PythonExtra: .so  
+[1.232s] -- Configuring done
+[1.347s] -- Generating done
+[1.355s] -- Build files have been written to: /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs
+[1.362s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs
+[1.362s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs -- -j4 -l4
+[1.451s] [35m[1mScanning dependencies of target ur_dashboard_msgs__cpp[0m
+[1.457s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.482s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.375s] [  1%] Built target ur_dashboard_msgs__cpp
+[4.407s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.407s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.414s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.431s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_generator_c[0m
+[4.481s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[4.577s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[4.656s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[4.702s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[4.740s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[4.779s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[4.815s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[4.860s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[4.941s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[5.021s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[5.104s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[5.167s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[5.243s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[5.326s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_typesupport_cpp[0m
+[5.348s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[5.369s] [ 14%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[5.452s] [ 15%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[5.523s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp[0m
+[5.538s] [ 15%] Built target ur_dashboard_msgs__rosidl_generator_c
+[5.551s] [ 16%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[5.569s] [ 17%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[5.752s] [ 17%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[5.754s] [ 18%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[5.764s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[5.765s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.811s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[5.950s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[5.953s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[5.957s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[6.116s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[6.139s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[6.206s] [ 24%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[6.212s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[6.329s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[6.391s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[6.479s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[6.486s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[6.552s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[6.558s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[6.655s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[6.690s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[6.732s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[6.755s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[6.816s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[6.899s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[6.925s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[7.084s] [ 35%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[7.092s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[7.155s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[7.164s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[7.208s] [ 37%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[7.245s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.325s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[7.480s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[7.576s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[7.581s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[7.917s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[7.927s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[8.043s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[8.328s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[8.353s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[8.539s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[8.653s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[8.656s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[9.139s] [ 49%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.158s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_typesupport_introspection_c[0m
+[9.167s] [ 50%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.217s] [ 51%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[9.325s] [ 51%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.325s] [ 52%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[9.373s] [ 52%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[9.423s] [ 52%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[9.443s] [ 53%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[9.497s] [ 53%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[9.519s] [ 54%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[9.526s] [ 56%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[9.526s] [ 56%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.607s] [ 56%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[9.659s] [ 57%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[9.720s] [ 58%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[9.734s] [ 58%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[9.807s] [ 59%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[9.828s] [ 60%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[9.911s] [ 61%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[9.927s] [ 61%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[10.038s] [ 62%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.147s] [ 62%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[10.291s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_typesupport_c[0m
+[10.316s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[10.319s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[10.329s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[10.375s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[10.396s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[10.416s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[10.449s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[10.475s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[10.481s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[10.526s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[10.555s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[10.557s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[10.596s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[10.649s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[10.745s] [ 73%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[10.882s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c[0m
+[10.901s] [ 73%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[10.957s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[10.959s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[10.975s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[11.006s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[11.375s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[11.425s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[11.443s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[11.447s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[11.861s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[11.877s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[11.897s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[11.949s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[12.305s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[12.419s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[12.940s] [ 84%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.228s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[13.275s] [35m[1mScanning dependencies of target ur_dashboard_msgs[0m
+[13.310s] [ 84%] Built target ur_dashboard_msgs
+[13.362s] [35m[1mScanning dependencies of target ur_dashboard_msgs__py[0m
+[13.416s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.525s] [ 85%] Built target ur_dashboard_msgs__py
+[17.537s] [35m[1mScanning dependencies of target ur_dashboard_msgs__python[0m
+[17.618s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[17.618s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[17.624s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[17.626s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[17.749s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[17.757s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[17.765s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[17.800s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[17.876s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[17.906s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[17.916s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[17.920s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[17.987s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[18.001s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__python.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[18.119s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/libur_dashboard_msgs__python.so[0m
+[18.153s] [ 96%] Built target ur_dashboard_msgs__python
+[18.184s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_typesupport_c__pyext[0m
+[18.189s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[18.196s] [35m[1mScanning dependencies of target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.210s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[18.259s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.295s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.400s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.472s] [ 99%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[18.513s] [ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.540s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.603s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[18.763s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.811s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs -- -j4 -l4
+[20.345s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs
+[20.354s] -- Install configuration: "Debug"
+[20.355s] -- Execute custom install script
+[20.356s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[20.364s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[20.371s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[20.378s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[20.385s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode.h
+[20.393s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[20.400s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[20.407s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[20.413s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[20.427s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[20.434s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[20.441s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[20.449s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[20.464s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[20.471s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state.h
+[20.485s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode.h
+[20.493s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[20.500s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode.h
+[20.508s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log.h
+[20.522s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[20.535s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[20.542s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[20.556s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[20.562s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[20.569s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[20.576s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[20.588s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[20.595s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[20.602s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[20.609s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[20.623s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[20.630s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[20.637s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[20.653s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[20.660s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[20.667s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[20.681s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[20.696s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[20.727s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[20.749s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[20.779s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__functions.h
+[20.788s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__struct.h
+[20.795s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__type_support.h
+[20.804s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__functions.h
+[20.819s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__struct.h
+[20.843s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[20.866s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[20.887s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[20.908s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[20.929s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program.h
+[20.952s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state.h
+[20.975s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode.h
+[20.995s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode.h
+[21.015s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running.h
+[21.037s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved.h
+[21.059s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load.h
+[21.083s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup.h
+[21.108s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request.h
+[21.132s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[21.154s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[21.164s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[21.184s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[21.207s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[21.233s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[21.258s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[21.283s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[21.306s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[21.327s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[21.349s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[21.374s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[21.395s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[21.417s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[21.442s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[21.462s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[21.469s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[21.496s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[21.513s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[21.528s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[21.534s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[21.549s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[21.556s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[21.580s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[21.593s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[21.601s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[21.608s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[21.615s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[21.623s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[21.630s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[21.638s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[21.646s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[21.655s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[21.662s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[21.669s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[21.688s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[21.701s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[21.719s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[21.737s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.754s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[21.777s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[21.786s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[21.794s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[21.802s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[21.816s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[21.824s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[21.840s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[21.850s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[21.862s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[21.871s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[21.880s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[21.889s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[21.896s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode.hpp
+[21.903s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[21.911s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[21.919s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[21.927s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[21.934s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[21.942s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[21.950s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[21.957s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[21.964s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[21.972s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state.hpp
+[21.979s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode.hpp
+[21.987s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode.hpp
+[21.994s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log.hpp
+[22.001s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[22.010s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[22.017s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[22.024s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[22.035s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[22.045s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[22.053s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[22.061s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[22.069s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[22.076s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[22.083s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[22.091s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[22.099s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[22.107s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[22.114s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[22.121s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[22.129s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[22.136s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[22.144s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[22.153s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[22.161s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[22.168s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[22.175s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[22.182s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[22.189s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[22.195s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[22.202s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[22.209s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[22.217s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[22.224s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[22.231s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[22.238s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state.hpp
+[22.246s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[22.253s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[22.261s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running.hpp
+[22.269s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved.hpp
+[22.276s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load.hpp
+[22.284s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup.hpp
+[22.291s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request.hpp
+[22.298s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[22.306s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[22.313s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[22.320s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[22.329s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[22.337s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[22.344s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[22.353s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[22.360s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[22.367s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[22.374s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[22.383s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[22.390s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[22.398s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[22.410s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[22.417s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[22.424s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/__init__.py
+[22.431s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/msg/__init__.py
+[22.438s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/msg/_program_state.py
+[22.447s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[22.454s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[22.462s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/__init__.py
+[22.469s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[22.476s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[22.483s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[22.490s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[22.497s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[22.504s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[22.511s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[22.518s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_load.py
+[22.525s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_popup.py
+[22.533s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/srv/_raw_request.py
+[22.541s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/action/__init__.py
+[22.553s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/action/_set_mode.py
+[22.560s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[22.567s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[22.574s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[22.581s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__python.so
+[22.588s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[22.595s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[22.602s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[22.610s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[22.632s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[22.640s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[22.646s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[22.654s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[22.661s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[22.669s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[22.676s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[22.684s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[22.694s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[22.702s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[22.709s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[22.717s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[22.724s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[22.732s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[22.740s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[22.749s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[22.760s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[22.768s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[22.775s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[22.791s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[22.798s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[22.805s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[22.812s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[22.819s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[22.826s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[22.842s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[22.850s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[22.858s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[22.865s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[22.872s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[22.880s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[22.888s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[22.898s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[22.902s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[22.909s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[22.916s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[22.923s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[22.930s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[22.937s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[22.944s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[22.951s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[22.959s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[22.967s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[22.974s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[22.981s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[22.988s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[22.996s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[23.003s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[23.011s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[23.018s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[23.026s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[23.034s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[23.041s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[23.049s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[23.058s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[23.066s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[23.074s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[23.081s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.089s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[23.096s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[23.103s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.111s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.119s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.128s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[23.135s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[23.150s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[23.157s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[23.158s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[23.158s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[23.158s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[23.158s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[23.158s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[23.159s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[23.159s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[23.159s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[23.159s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[23.176s] Compiling '/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/lib/python3.8/site-packages/ur_dashboard_msgs/__init__.py'...
+[23.179s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[23.179s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_generator_cExport-debug.cmake
+[23.179s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[23.179s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-debug.cmake
+[23.180s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[23.180s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-debug.cmake
+[23.180s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[23.180s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[23.180s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-debug.cmake
+[23.180s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[23.180s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-debug.cmake
+[23.186s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs

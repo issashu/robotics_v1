@@ -1,0 +1,10 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/install/strip.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/install/local.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/install.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/list_install_components.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/rebuild_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/edit_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/test.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/urscript_bridge.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/urscript_bridge_uninstall.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_bridge/CMakeFiles/uninstall.dir

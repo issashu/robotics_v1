@@ -1,0 +1,1 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces/rosidl_cmake/srv/UrScript_Request.msg

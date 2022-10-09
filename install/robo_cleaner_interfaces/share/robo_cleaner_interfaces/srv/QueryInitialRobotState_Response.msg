@@ -1,0 +1,1 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_cmake/srv/QueryInitialRobotState_Response.msg

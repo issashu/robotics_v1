@@ -1,0 +1,9 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_builder/CMakeFiles/install/strip.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_builder/CMakeFiles/install.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_builder/CMakeFiles/list_install_components.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_builder/CMakeFiles/rebuild_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_builder/CMakeFiles/edit_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_builder/CMakeFiles/resource_builder_uninstall.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_builder/CMakeFiles/uninstall.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_builder/CMakeFiles/install/local.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_builder/CMakeFiles/resource_builder.dir

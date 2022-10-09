@@ -1,0 +1,10 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/install/strip.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/install/local.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/install.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/list_install_components.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/rebuild_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/edit_cache.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/test.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/ur_control_gui.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/ur_control_gui_uninstall.dir
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_control_gui/CMakeFiles/uninstall.dir
