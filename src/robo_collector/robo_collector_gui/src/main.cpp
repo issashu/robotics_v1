@@ -20,7 +20,8 @@ int32_t main(int32_t argc, char **args) {
     LOGERR("app.loadDependencies() failed");
     return EXIT_FAILURE;
   }
-
+  
+  //TODO The communicator instance seems off or is just default constructor
   auto communicator = std::make_unique<Ros2Communicator>();
   auto game = RoboCollectorBuilder::createRoboCollectorGui(communicator);
   app.obtain(std::move(game), std::move(communicator));

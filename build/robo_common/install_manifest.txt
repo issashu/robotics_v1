@@ -66,5 +66,5 @@
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_common/include/robo_common/defines/RoboCommonFunctionalDefines.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_common/include/robo_common/defines/RoboCommonDefines.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_common/lib/cmake/robo_common/robo_commonTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_common/lib/cmake/robo_common/robo_commonTargets-debug.cmake
+/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_common/lib/cmake/robo_common/robo_commonTargets-relwithdebinfo.cmake
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_common/lib/cmake/robo_common/robo_commonConfig.cmake

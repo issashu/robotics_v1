@@ -1,0 +1,35 @@
+[0.033s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/cmake_helpers -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers
+[0.051s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.219s] -- Configuring done
+[0.221s] -- Generating done
+[0.221s] -- Build files have been written to: /home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers
+[0.225s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/cmake_helpers -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers
+[0.226s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers -- -j4 -l4
+[0.267s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers -- -j4 -l4
+[0.305s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers
+[0.316s] -- Install configuration: "RelWithDebInfo"
+[0.316s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.xml
+[0.316s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/helpers.cmake
+[0.317s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules
+[0.317s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindSDL2_ttf.cmake
+[0.317s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindSDL2_image.cmake
+[0.317s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindSDL2.cmake
+[0.317s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindSDL2_mixer.cmake
+[0.317s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/find_modules/FindIWYU.cmake
+[0.317s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/ament_index/resource_index/package_run_dependencies/cmake_helpers
+[0.317s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/ament_index/resource_index/parent_prefix_path/cmake_helpers
+[0.318s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/environment/ament_prefix_path.sh
+[0.319s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/environment/ament_prefix_path.dsv
+[0.319s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/environment/path.sh
+[0.319s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/environment/path.dsv
+[0.319s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/local_setup.bash
+[0.319s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/local_setup.sh
+[0.319s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/local_setup.zsh
+[0.319s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/local_setup.dsv
+[0.320s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.dsv
+[0.320s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/ament_index/resource_index/packages/cmake_helpers
+[0.320s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/cmake_helpersConfig.cmake
+[0.320s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/cmake/cmake_helpersConfig-version.cmake
+[0.320s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/cmake_helpers/share/cmake_helpers/package.xml
+[0.323s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/cmake_helpers

@@ -29,5 +29,5 @@
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include/resource_utils/defines/ResourceDefines.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include/resource_utils/defines/SoundDefines.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/cmake/resource_utils/resource_utilsTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/cmake/resource_utils/resource_utilsTargets-debug.cmake
+/home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/cmake/resource_utils/resource_utilsTargets-relwithdebinfo.cmake
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/lib/cmake/resource_utils/resource_utilsConfig.cmake

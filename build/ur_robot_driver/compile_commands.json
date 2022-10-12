@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_robot_driver",
+  "command": "/usr/bin/clang++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include -isystem /opt/ros/foxy/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/include  -O2 -g -DNDEBUG   -std=c++11 -Wall -Wextra -Wno-unused-parameter -std=c++17 -o CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_ros.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_ros.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_robot_driver",
+  "command": "/usr/bin/clang++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include -isystem /opt/ros/foxy/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/include  -O2 -g -DNDEBUG   -std=c++11 -Wall -Wextra -Wno-unused-parameter -std=c++17 -o CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_node.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_node.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_robot_driver",
+  "command": "/usr/bin/clang++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include -isystem /opt/ros/foxy/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/include  -O2 -g -DNDEBUG   -std=c++11 -Wall -Wextra -Wno-unused-parameter -std=c++17 -o CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/urcl_log_handler.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/urcl_log_handler.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_robot_driver",
+  "command": "/usr/bin/clang++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dur_robot_driver_plugin_EXPORTS -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include -isystem /opt/ros/foxy/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/include  -O2 -g -DNDEBUG -fPIC   -std=c++11 -Wall -Wextra -Wno-unused-parameter -std=c++17 -o CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_ros.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/dashboard_client_ros.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_robot_driver",
+  "command": "/usr/bin/clang++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dur_robot_driver_plugin_EXPORTS -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include -isystem /opt/ros/foxy/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/include  -O2 -g -DNDEBUG -fPIC   -std=c++11 -Wall -Wextra -Wno-unused-parameter -std=c++17 -o CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_robot_driver",
+  "command": "/usr/bin/clang++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dur_robot_driver_plugin_EXPORTS -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_dashboard_msgs/include -isystem /opt/ros/foxy/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/include  -O2 -g -DNDEBUG -fPIC   -std=c++11 -Wall -Wextra -Wno-unused-parameter -std=c++17 -o CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/urcl_log_handler.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_robot_driver/src/urcl_log_handler.cpp"
+}
+]

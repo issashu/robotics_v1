@@ -1,0 +1,1 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/src/robo_collector_bringup/launch/robo_collector_app.launch.py

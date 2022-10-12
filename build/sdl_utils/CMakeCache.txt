@@ -45,7 +45,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Debug
+CMAKE_BUILD_TYPE:STRING=RelWithDebInfo
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -93,7 +93,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils
@@ -473,7 +473,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 SDL2_IMAGE_LIBRARY_TEMP:INTERNAL=/usr/lib/aarch64-linux-gnu/libSDL2_image.so
-SDL2_LIBRARY_TEMP:INTERNAL=/usr/lib/aarch64-linux-gnu/libSDL2main.a;/usr/lib/aarch64-linux-gnu/libSDL2.so;-lpthread
+SDL2_LIBRARY_TEMP:INTERNAL=/usr/lib/aarch64-linux-gnu/libSDL2main.a;/usr/lib/aarch64-linux-gnu/libSDL2main.a;/usr/lib/aarch64-linux-gnu/libSDL2main.a;/usr/lib/aarch64-linux-gnu/libSDL2main.a;/usr/lib/aarch64-linux-gnu/libSDL2.so;-lpthread;-lpthread;-lpthread;-lpthread
 SDL2_MIXER_LIBRARY_TEMP:INTERNAL=/usr/lib/aarch64-linux-gnu/libSDL2_mixer.so
 SDL2_TTF_LIBRARY_TEMP:INTERNAL=/usr/lib/aarch64-linux-gnu/libSDL2_ttf.so
 

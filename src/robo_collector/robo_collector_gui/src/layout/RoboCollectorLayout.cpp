@@ -31,6 +31,7 @@ void RoboCollectorLayout::produceInterface(
     RoboCollectorLayoutInterface& interface) {
   interface.enablePlayerInputCb = std::bind(
       &RoboCollectorUiController::unlockInput, &_controller);
+  //TODO Check how is this thing even passed. The placeholder _1 might not be getting what it needs
   interface.moveButtonClickCb = std::bind(
       &RoboCollectorUiController::onMoveButtonClicked, &_controller, _1);
   for (auto i = 0; i < Defines::ENEMIES_CTN; ++i) {

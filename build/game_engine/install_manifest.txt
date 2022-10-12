@@ -32,5 +32,5 @@
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/game_engine/include/game_engine/communicator/NullCommunicator.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/game_engine/include/game_engine/communicator/Communicator.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/game_engine/lib/cmake/game_engine/game_engineTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/game_engine/lib/cmake/game_engine/game_engineTargets-debug.cmake
+/home/parallels/CLionProjects/Homeworks/robotics_v1/install/game_engine/lib/cmake/game_engine/game_engineTargets-relwithdebinfo.cmake
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/game_engine/lib/cmake/game_engine/game_engineConfig.cmake

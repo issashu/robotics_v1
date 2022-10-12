@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/resource_utils.dir/src/common/ResourceFileHeader.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/common/ResourceFileHeader.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/common/ResourceFileHeader.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/resource_utils.dir/src/defines/SoundDefines.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/defines/SoundDefines.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/defines/SoundDefines.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/resource_utils.dir/src/resource_loader/ResourceLoader.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/resource_loader/ResourceLoader.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/resource_loader/ResourceLoader.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/resource_utils.dir/src/structs/CombinedStructs.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/CombinedStructs.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/CombinedStructs.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/resource_utils.dir/src/structs/DataHeader.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/DataHeader.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/DataHeader.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/resource_utils.dir/src/structs/ResourceData.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/ResourceData.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/ResourceData.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/resource_utils.dir/src/structs/FontData.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/FontData.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/FontData.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/resource_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/resource_utils.dir/src/structs/SoundData.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/SoundData.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/resource_utils/src/structs/SoundData.cpp"
+}
+]

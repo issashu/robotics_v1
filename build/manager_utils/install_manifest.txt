@@ -53,5 +53,5 @@
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/input/ButtonBase.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/include/manager_utils/input/Scroller.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/lib/cmake/manager_utils/manager_utilsTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/lib/cmake/manager_utils/manager_utilsTargets-debug.cmake
+/home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/lib/cmake/manager_utils/manager_utilsTargets-relwithdebinfo.cmake
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/manager_utils/lib/cmake/manager_utils/manager_utilsConfig.cmake

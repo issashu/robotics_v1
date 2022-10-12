@@ -1,0 +1,358 @@
+[0.042s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/robo_miner/robo_miner_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces
+[0.086s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.140s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.140s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.340s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.342s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.353s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.674s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.883s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.016s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.067s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.067s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.095s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.099s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.099s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[1.146s] -- Configuring done
+[1.292s] -- Generating done
+[1.303s] -- Build files have been written to: /home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces
+[1.316s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/robo_miner/robo_miner_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces
+[1.316s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces -- -j4 -l4
+[1.607s] [  1%] Built target robo_miner_interfaces__cpp
+[1.609s] [  1%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/field_point__functions.c.o[0m
+[1.626s] [  2%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/robot_position_response__functions.c.o[0m
+[1.630s] [  3%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/u_int8_multi_array__functions.c.o[0m
+[1.676s] [  4%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/robot_move_type__functions.c.o[0m
+[1.834s] [  5%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/msg/detail/user_authenticate__functions.c.o[0m
+[1.975s] [  7%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/activate_mining_validate__functions.c.o[0m
+[1.979s] [  7%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/robot_move__functions.c.o[0m
+[2.027s] [  8%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/longest_sequence_validate__functions.c.o[0m
+[2.176s] [  9%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/field_map_validate__functions.c.o[0m
+[2.357s] [ 10%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_miner_interfaces/srv/detail/query_initial_robot_position__functions.c.o[0m
+[2.512s] [ 11%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/field_point__type_support.cpp.o[0m
+[2.558s] [ 12%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/field_point__type_support.cpp.o[0m
+[2.579s] [ 13%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/robot_position_response__type_support.cpp.o[0m
+[2.674s] [ 14%] [32m[1mLinking C shared library librobo_miner_interfaces__rosidl_generator_c.so[0m
+[2.927s] [ 15%] Built target robo_miner_interfaces__rosidl_generator_c
+[3.110s] [ 16%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/field_point__type_support.cpp.o[0m
+[3.112s] [ 16%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/u_int8_multi_array__type_support.cpp.o[0m
+[3.339s] [ 17%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/robot_position_response__type_support.cpp.o[0m
+[3.736s] [ 18%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/robot_move_type__type_support.cpp.o[0m
+[3.967s] [ 19%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/robot_position_response__type_support.cpp.o[0m
+[4.212s] [ 20%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/u_int8_multi_array__type_support.cpp.o[0m
+[4.501s] [ 21%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/msg/detail/dds_fastrtps/user_authenticate__type_support.cpp.o[0m
+[4.749s] [ 22%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support.cpp.o[0m
+[4.803s] [ 24%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/activate_mining_validate__type_support.cpp.o[0m
+[4.805s] [ 24%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/robot_move_type__type_support.cpp.o[0m
+[5.471s] [ 25%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/robot_move__type_support.cpp.o[0m
+[5.509s] [ 26%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/robot_move_type__type_support.cpp.o[0m
+[5.556s] [ 27%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/msg/user_authenticate__type_support.cpp.o[0m
+[5.692s] [ 28%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/longest_sequence_validate__type_support.cpp.o[0m
+[6.114s] [ 29%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/msg/detail/user_authenticate__type_support.cpp.o[0m
+[6.143s] [ 30%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/activate_mining_validate__type_support.cpp.o[0m
+[6.216s] [ 31%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/field_map_validate__type_support.cpp.o[0m
+[6.579s] [ 32%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_miner_interfaces/srv/detail/dds_fastrtps/query_initial_robot_position__type_support.cpp.o[0m
+[6.618s] [ 33%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/robot_move__type_support.cpp.o[0m
+[6.731s] [ 34%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support.cpp.o[0m
+[7.006s] [ 35%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/robot_move__type_support.cpp.o[0m
+[7.292s] [ 36%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/longest_sequence_validate__type_support.cpp.o[0m
+[7.385s] [ 37%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support.cpp.o[0m
+[7.522s] [ 38%] [32m[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.618s] [ 39%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/field_map_validate__type_support.cpp.o[0m
+[7.667s] [ 40%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/field_map_validate__type_support.cpp.o[0m
+[7.801s] [ 41%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support.cpp.o[0m
+[7.826s] [ 43%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_miner_interfaces/srv/query_initial_robot_position__type_support.cpp.o[0m
+[7.828s] [ 43%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.911s] [ 44%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/field_point__type_support.c.o[0m
+[7.963s] [ 45%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/robot_position_response__type_support.c.o[0m
+[8.011s] [ 46%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support.c.o[0m
+[8.024s] [ 47%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/robot_move_type__type_support.c.o[0m
+[8.024s] [ 48%] [32m[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.050s] [ 49%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/msg/detail/user_authenticate__type_support.c.o[0m
+[8.081s] [ 50%] [32m[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_cpp.so[0m
+[8.105s] [ 51%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support.c.o[0m
+[8.110s] [ 52%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/robot_move__type_support.c.o[0m
+[8.172s] [ 53%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_cpp
+[8.200s] [ 54%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support.c.o[0m
+[8.217s] [ 55%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/field_map_validate__type_support.c.o[0m
+[8.249s] [ 56%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/field_point__type_support.cpp.o[0m
+[8.289s] [ 57%] Built target robo_miner_interfaces__rosidl_typesupport_cpp
+[8.293s] [ 58%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support.c.o[0m
+[8.363s] [ 59%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/robot_position_response__type_support.cpp.o[0m
+[8.370s] [ 60%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/u_int8_multi_array__type_support.cpp.o[0m
+[8.421s] [ 61%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/field_point__type_support_c.cpp.o[0m
+[8.462s] [ 62%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/robot_move_type__type_support.cpp.o[0m
+[8.465s] [ 63%] [32m[1mLinking C shared library librobo_miner_interfaces__rosidl_typesupport_introspection_c.so[0m
+[8.473s] [ 64%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/msg/user_authenticate__type_support.cpp.o[0m
+[8.568s] [ 65%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/activate_mining_validate__type_support.cpp.o[0m
+[8.598s] [ 66%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c
+[8.618s] [ 67%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/robot_move__type_support.cpp.o[0m
+[8.648s] [ 68%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/longest_sequence_validate__type_support.cpp.o[0m
+[8.715s] [ 68%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/field_map_validate__type_support.cpp.o[0m
+[8.771s] [ 69%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_miner_interfaces/srv/query_initial_robot_position__type_support.cpp.o[0m
+[8.801s] [ 70%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/robot_position_response__type_support_c.cpp.o[0m
+[8.871s] [ 71%] [32m[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_c.so[0m
+[8.876s] [ 72%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support_c.cpp.o[0m
+[9.040s] [ 73%] Built target robo_miner_interfaces__rosidl_typesupport_c
+[9.110s] [ 74%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/robot_move_type__type_support_c.cpp.o[0m
+[9.412s] [ 76%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support_c.cpp.o[0m
+[9.416s] [ 76%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/msg/detail/user_authenticate__type_support_c.cpp.o[0m
+[9.555s] [ 77%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/robot_move__type_support_c.cpp.o[0m
+[9.665s] [ 78%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support_c.cpp.o[0m
+[9.972s] [ 79%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/field_map_validate__type_support_c.cpp.o[0m
+[9.993s] [ 80%] [32mBuilding CXX object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support_c.cpp.o[0m
+[10.457s] [ 81%] [32m[1mLinking CXX shared library librobo_miner_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[10.620s] [ 82%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c
+[10.684s] [ 82%] Built target robo_miner_interfaces
+[10.731s] [ 83%] Built target robo_miner_interfaces__py
+[10.835s] [ 84%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_field_point_s.c.o[0m
+[10.868s] [ 85%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_robot_position_response_s.c.o[0m
+[10.890s] [ 86%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_u_int8_multi_array_s.c.o[0m
+[11.063s] [ 87%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_robot_move_type_s.c.o[0m
+[11.129s] [ 88%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/msg/_user_authenticate_s.c.o[0m
+[11.199s] [ 89%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_activate_mining_validate_s.c.o[0m
+[11.250s] [ 90%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_robot_move_s.c.o[0m
+[11.272s] [ 91%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_longest_sequence_validate_s.c.o[0m
+[11.452s] [ 92%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_field_map_validate_s.c.o[0m
+[11.473s] [ 93%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__python.dir/rosidl_generator_py/robo_miner_interfaces/srv/_query_initial_robot_position_s.c.o[0m
+[11.749s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/robo_miner_interfaces/librobo_miner_interfaces__python.so[0m
+[11.837s] [ 94%] Built target robo_miner_interfaces__python
+[11.905s] [ 95%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robo_miner_interfaces/_robo_miner_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.939s] [ 96%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robo_miner_interfaces/_robo_miner_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.955s] [ 97%] [32mBuilding C object CMakeFiles/robo_miner_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robo_miner_interfaces/_robo_miner_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.277s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[12.338s] [ 98%] Built target robo_miner_interfaces__rosidl_typesupport_introspection_c__pyext
+[12.382s] [ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[12.430s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[12.493s] [100%] Built target robo_miner_interfaces__rosidl_typesupport_c__pyext
+[12.574s] [100%] Built target robo_miner_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[12.608s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces -- -j4 -l4
+[13.134s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces
+[13.142s] -- Install configuration: "RelWithDebInfo"
+[13.143s] -- Execute custom install script
+[13.143s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/ament_index/resource_index/rosidl_interfaces/robo_miner_interfaces
+[13.145s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__functions.h
+[13.145s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__struct.h
+[13.145s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__type_support.h
+[13.145s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__functions.h
+[13.146s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__struct.h
+[13.146s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__type_support.h
+[13.146s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__functions.h
+[13.146s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__struct.h
+[13.146s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__type_support.h
+[13.146s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__functions.h
+[13.146s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__struct.h
+[13.146s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__type_support.h
+[13.146s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__functions.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__struct.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__type_support.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/field_point.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_move_type.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_position_response.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_generator_c__visibility_control.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/u_int8_multi_array.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/user_authenticate.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/activate_mining_validate.h
+[13.147s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__functions.h
+[13.148s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__struct.h
+[13.148s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__type_support.h
+[13.148s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__functions.h
+[13.148s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__struct.h
+[13.148s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__type_support.h
+[13.148s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__functions.h
+[13.148s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__struct.h
+[13.148s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__type_support.h
+[13.148s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__functions.h
+[13.149s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__struct.h
+[13.149s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__type_support.h
+[13.149s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__functions.h
+[13.149s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__struct.h
+[13.149s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__type_support.h
+[13.149s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/field_map_validate.h
+[13.149s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/longest_sequence_validate.h
+[13.149s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/query_initial_robot_position.h
+[13.150s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/robot_move.h
+[13.150s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/library_path.sh
+[13.150s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/library_path.dsv
+[13.150s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_fastrtps_c.h
+[13.151s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_c.h
+[13.151s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_fastrtps_c.h
+[13.151s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_fastrtps_c.h
+[13.151s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_c.h
+[13.160s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.160s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_fastrtps_c.h
+[13.160s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_fastrtps_c.h
+[13.160s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_fastrtps_c.h
+[13.160s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_fastrtps_c.h
+[13.160s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_fastrtps_c.h
+[13.160s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_fastrtps_c.so
+[13.161s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_fastrtps_cpp.hpp
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_introspection_c.h
+[13.162s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_c.h
+[13.163s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_introspection_c.h
+[13.163s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_introspection_c.h
+[13.163s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_c.h
+[13.163s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.163s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_introspection_c.h
+[13.163s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_introspection_c.h
+[13.163s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_introspection_c.h
+[13.164s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_introspection_c.h
+[13.164s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_introspection_c.h
+[13.165s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__builder.hpp
+[13.165s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__struct.hpp
+[13.165s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__traits.hpp
+[13.165s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__builder.hpp
+[13.165s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__struct.hpp
+[13.166s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__traits.hpp
+[13.166s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__builder.hpp
+[13.166s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__struct.hpp
+[13.166s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__traits.hpp
+[13.166s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__builder.hpp
+[13.166s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__struct.hpp
+[13.166s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__traits.hpp
+[13.166s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__builder.hpp
+[13.166s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__struct.hpp
+[13.167s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__traits.hpp
+[13.167s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/field_point.hpp
+[13.167s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_move_type.hpp
+[13.167s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/robot_position_response.hpp
+[13.167s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/u_int8_multi_array.hpp
+[13.167s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/user_authenticate.hpp
+[13.167s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/activate_mining_validate.hpp
+[13.167s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__builder.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__struct.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__traits.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__builder.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__struct.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__traits.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__builder.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__struct.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__traits.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__builder.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__struct.hpp
+[13.168s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__traits.hpp
+[13.169s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__builder.hpp
+[13.169s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__struct.hpp
+[13.169s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__traits.hpp
+[13.169s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/field_map_validate.hpp
+[13.169s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/longest_sequence_validate.hpp
+[13.169s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/query_initial_robot_position.hpp
+[13.169s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/robot_move.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/field_point__rosidl_typesupport_introspection_cpp.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_cpp.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/robot_position_response__rosidl_typesupport_introspection_cpp.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/u_int8_multi_array__rosidl_typesupport_introspection_cpp.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_cpp.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/activate_mining_validate__rosidl_typesupport_introspection_cpp.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/field_map_validate__rosidl_typesupport_introspection_cpp.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/longest_sequence_validate__rosidl_typesupport_introspection_cpp.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/query_initial_robot_position__rosidl_typesupport_introspection_cpp.hpp
+[13.170s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/include/robo_miner_interfaces/srv/detail/robot_move__rosidl_typesupport_introspection_cpp.hpp
+[13.171s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/pythonpath.sh
+[13.171s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/pythonpath.dsv
+[13.171s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/__init__.py
+[13.171s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/__init__.py
+[13.171s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_field_point.py
+[13.173s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_robot_move_type.py
+[13.173s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_robot_position_response.py
+[13.173s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_u_int8_multi_array.py
+[13.174s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/msg/_user_authenticate.py
+[13.174s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/__init__.py
+[13.174s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_activate_mining_validate.py
+[13.174s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_field_map_validate.py
+[13.174s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_longest_sequence_validate.py
+[13.175s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_query_initial_robot_position.py
+[13.175s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/srv/_robot_move.py
+[13.175s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[13.175s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[13.175s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/robo_miner_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[13.176s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__python.so
+[13.176s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/FieldPoint.idl
+[13.176s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotPositionResponse.idl
+[13.177s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UInt8MultiArray.idl
+[13.177s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotMoveType.idl
+[13.177s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UserAuthenticate.idl
+[13.177s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate.idl
+[13.177s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove.idl
+[13.177s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate.idl
+[13.178s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate.idl
+[13.178s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition.idl
+[13.178s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/FieldPoint.msg
+[13.178s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotPositionResponse.msg
+[13.178s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UInt8MultiArray.msg
+[13.178s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/RobotMoveType.msg
+[13.178s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/msg/UserAuthenticate.msg
+[13.179s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate.srv
+[13.179s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate_Request.msg
+[13.179s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/ActivateMiningValidate_Response.msg
+[13.179s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove.srv
+[13.179s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove_Request.msg
+[13.179s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/RobotMove_Response.msg
+[13.180s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate.srv
+[13.180s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate_Request.msg
+[13.180s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/LongestSequenceValidate_Response.msg
+[13.180s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate.srv
+[13.180s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate_Request.msg
+[13.180s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/FieldMapValidate_Response.msg
+[13.180s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition.srv
+[13.181s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition_Request.msg
+[13.181s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/srv/QueryInitialRobotPosition_Response.msg
+[13.181s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/ament_index/resource_index/package_run_dependencies/robo_miner_interfaces
+[13.181s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/ament_index/resource_index/parent_prefix_path/robo_miner_interfaces
+[13.181s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/ament_prefix_path.sh
+[13.181s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/ament_prefix_path.dsv
+[13.182s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/path.sh
+[13.182s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/environment/path.dsv
+[13.182s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.bash
+[13.182s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.sh
+[13.182s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.zsh
+[13.182s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/local_setup.dsv
+[13.183s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/package.dsv
+[13.192s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/ament_index/resource_index/packages/robo_miner_interfaces
+[13.192s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.192s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.192s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.192s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.192s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.193s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.193s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.193s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfacesConfig.cmake
+[13.193s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfacesConfig-version.cmake
+[13.193s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/package.xml
+[13.194s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_generator_c.so
+[13.196s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_generator_c.so" to ""
+[13.196s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_c.so
+[13.196s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[13.196s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_c.so
+[13.197s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_c.so" to ""
+[13.197s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_cpp.so
+[13.198s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[13.198s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_cpp.so
+[13.198s] -- Set runtime path of "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/librobo_miner_interfaces__rosidl_typesupport_cpp.so" to ""
+[13.219s] Compiling '/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/lib/python3.8/site-packages/robo_miner_interfaces/__init__.py'...
+[13.228s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_generator_cExport.cmake
+[13.228s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake
+[13.228s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[13.228s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[13.228s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cExport.cmake
+[13.228s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[13.228s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_generator_cppExport.cmake
+[13.228s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[13.228s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[13.228s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cppExport.cmake
+[13.228s] -- Installing: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_interfaces/share/robo_miner_interfaces/cmake/robo_miner_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[13.228s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_miner_interfaces

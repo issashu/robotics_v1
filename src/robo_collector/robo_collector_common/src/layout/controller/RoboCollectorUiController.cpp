@@ -87,6 +87,7 @@ void RoboCollectorUiController::handleEvent(const InputEvent &e) {
   }
 }
 
+//TODO Fix here not to lock button on click :P
 void RoboCollectorUiController::onMoveButtonClicked(MoveType moveType) {
   lockInput();
   _robotActCb(moveType);

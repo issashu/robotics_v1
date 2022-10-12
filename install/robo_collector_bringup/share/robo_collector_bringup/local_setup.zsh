@@ -1,0 +1,1 @@
+/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_bringup/ament_cmake_environment_hooks/local_setup.zsh

@@ -47,5 +47,5 @@
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include/utils/data_type/StringUtils.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include/utils/rng/Rng.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/cmake/utils/utilsTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/cmake/utils/utilsTargets-debug.cmake
+/home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/cmake/utils/utilsTargets-relwithdebinfo.cmake
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/lib/cmake/utils/utilsConfig.cmake

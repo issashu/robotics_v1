@@ -1,0 +1,105 @@
+[0.023s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_interfaces -- -j4 -l4
+[0.125s] [  2%] Built target robo_collector_interfaces__cpp
+[0.132s] [ 12%] Built target robo_collector_interfaces__rosidl_generator_c
+[0.176s] [ 23%] Built target robo_collector_interfaces__rosidl_typesupport_introspection_cpp
+[0.187s] [ 33%] Built target robo_collector_interfaces__rosidl_typesupport_cpp
+[0.204s] [ 43%] Built target robo_collector_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.214s] [ 53%] Built target robo_collector_interfaces__rosidl_typesupport_introspection_c
+[0.240s] [ 64%] Built target robo_collector_interfaces__rosidl_typesupport_c
+[0.251s] [ 74%] Built target robo_collector_interfaces__rosidl_typesupport_fastrtps_c
+[0.272s] [ 74%] Built target robo_collector_interfaces
+[0.299s] [ 76%] Built target robo_collector_interfaces__py
+[0.333s] [ 84%] Built target robo_collector_interfaces__python
+[0.377s] [ 89%] Built target robo_collector_interfaces__rosidl_typesupport_c__pyext
+[0.389s] [ 94%] Built target robo_collector_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.404s] [100%] Built target robo_collector_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.420s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_interfaces -- -j4 -l4
+[0.505s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_interfaces
+[0.516s] -- Install configuration: "RelWithDebInfo"
+[0.518s] -- Execute custom install script
+[0.518s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/ament_index/resource_index/rosidl_interfaces/robo_collector_interfaces
+[0.518s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__functions.h
+[0.519s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__struct.h
+[0.519s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__type_support.h
+[0.519s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__functions.h
+[0.519s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__struct.h
+[0.520s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__type_support.h
+[0.520s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/robot_move_type.h
+[0.520s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.520s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/user_authenticate.h
+[0.520s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/library_path.sh
+[0.521s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/library_path.dsv
+[0.521s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_c.h
+[0.521s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_c.h
+[0.521s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.522s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.523s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_cpp.hpp
+[0.523s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__rosidl_typesupport_fastrtps_cpp.hpp
+[0.523s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.524s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.524s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_c.h
+[0.524s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_c.h
+[0.524s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.525s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__builder.hpp
+[0.525s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__struct.hpp
+[0.525s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__traits.hpp
+[0.525s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__builder.hpp
+[0.525s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__struct.hpp
+[0.525s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__traits.hpp
+[0.526s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/robot_move_type.hpp
+[0.526s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/user_authenticate.hpp
+[0.526s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/robot_move_type__rosidl_typesupport_introspection_cpp.hpp
+[0.526s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/include/robo_collector_interfaces/msg/detail/user_authenticate__rosidl_typesupport_introspection_cpp.hpp
+[0.527s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/pythonpath.sh
+[0.527s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/pythonpath.dsv
+[0.527s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/__init__.py
+[0.528s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/msg/__init__.py
+[0.528s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/msg/_robot_move_type.py
+[0.528s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/msg/_user_authenticate.py
+[0.529s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/robo_collector_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[0.529s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/robo_collector_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[0.530s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages/robo_collector_interfaces/robo_collector_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[0.531s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__python.so
+[0.531s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/msg/RobotMoveType.idl
+[0.532s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/msg/UserAuthenticate.idl
+[0.532s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/msg/RobotMoveType.msg
+[0.532s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/msg/UserAuthenticate.msg
+[0.532s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/ament_index/resource_index/package_run_dependencies/robo_collector_interfaces
+[0.533s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/ament_index/resource_index/parent_prefix_path/robo_collector_interfaces
+[0.533s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/ament_prefix_path.sh
+[0.533s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/ament_prefix_path.dsv
+[0.533s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/path.sh
+[0.533s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/environment/path.dsv
+[0.533s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/local_setup.bash
+[0.534s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/local_setup.sh
+[0.534s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/local_setup.zsh
+[0.534s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/local_setup.dsv
+[0.534s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.dsv
+[0.544s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/ament_index/resource_index/packages/robo_collector_interfaces
+[0.544s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.544s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.545s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.545s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.545s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.546s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.546s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.546s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfacesConfig.cmake
+[0.546s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfacesConfig-version.cmake
+[0.546s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/package.xml
+[0.546s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_generator_c.so
+[0.547s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_introspection_c.so
+[0.548s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_c.so
+[0.551s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.551s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/librobo_collector_interfaces__rosidl_typesupport_cpp.so
+[0.576s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_generator_cExport.cmake
+[0.576s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake
+[0.579s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.579s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[0.579s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_cExport.cmake
+[0.579s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[0.579s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_generator_cppExport.cmake
+[0.579s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.580s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[0.580s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_cppExport.cmake
+[0.580s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/share/robo_collector_interfaces/cmake/robo_collector_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[0.591s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_interfaces

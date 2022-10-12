@@ -1,1 +1,1 @@
-/usr/bin/clang++   -Wall -pedantic -Wall -pedantic -g  -rdynamic CMakeFiles/rtde_client_example.dir/rtde_client.cpp.o  -o rtde_client_example  -Wl,-rpath,/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library ../liburcl.so -lpthread 
+/usr/bin/clang++   -Wall -pedantic -Wall -pedantic -O2 -g -DNDEBUG  -rdynamic CMakeFiles/rtde_client_example.dir/rtde_client.cpp.o  -o rtde_client_example  -Wl,-rpath,/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library ../liburcl.so -lpthread 

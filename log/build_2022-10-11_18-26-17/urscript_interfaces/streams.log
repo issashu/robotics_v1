@@ -1,0 +1,92 @@
+[0.029s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces -- -j4 -l4
+[0.111s] [  3%] Built target urscript_interfaces__cpp
+[0.141s] [ 12%] Built target urscript_interfaces__rosidl_generator_c
+[0.181s] [ 22%] Built target urscript_interfaces__rosidl_typesupport_cpp
+[0.191s] [ 32%] Built target urscript_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.204s] [ 41%] Built target urscript_interfaces__rosidl_typesupport_introspection_cpp
+[0.221s] [ 51%] Built target urscript_interfaces__rosidl_typesupport_c
+[0.227s] [ 61%] Built target urscript_interfaces__rosidl_typesupport_introspection_c
+[0.239s] [ 70%] Built target urscript_interfaces__rosidl_typesupport_fastrtps_c
+[0.261s] [ 70%] Built target urscript_interfaces
+[0.289s] [ 74%] Built target urscript_interfaces__py
+[0.322s] [ 80%] Built target urscript_interfaces__python
+[0.376s] [ 87%] Built target urscript_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.386s] [ 93%] Built target urscript_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.391s] [100%] Built target urscript_interfaces__rosidl_typesupport_c__pyext
+[0.404s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces -- -j4 -l4
+[0.470s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces
+[0.479s] -- Install configuration: "RelWithDebInfo"
+[0.480s] -- Execute custom install script
+[0.480s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/ament_index/resource_index/rosidl_interfaces/urscript_interfaces
+[0.482s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.482s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__functions.h
+[0.482s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__struct.h
+[0.482s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__type_support.h
+[0.482s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/ur_script.h
+[0.483s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/library_path.sh
+[0.483s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/library_path.dsv
+[0.484s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.484s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__rosidl_typesupport_fastrtps_c.h
+[0.485s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.485s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.485s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__rosidl_typesupport_fastrtps_cpp.hpp
+[0.486s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.486s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.486s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__rosidl_typesupport_introspection_c.h
+[0.487s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__builder.hpp
+[0.487s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__struct.hpp
+[0.487s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__traits.hpp
+[0.487s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/ur_script.hpp
+[0.488s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/urscript_interfaces/srv/detail/ur_script__rosidl_typesupport_introspection_cpp.hpp
+[0.488s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/pythonpath.sh
+[0.488s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/pythonpath.dsv
+[0.488s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/__init__.py
+[0.489s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/srv/__init__.py
+[0.489s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/srv/_ur_script.py
+[0.490s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/urscript_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[0.490s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/urscript_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[0.491s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/python3.8/site-packages/urscript_interfaces/urscript_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[0.491s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__python.so
+[0.492s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/srv/UrScript.idl
+[0.492s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/srv/UrScript.srv
+[0.492s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/srv/UrScript_Request.msg
+[0.492s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/srv/UrScript_Response.msg
+[0.492s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/ament_index/resource_index/package_run_dependencies/urscript_interfaces
+[0.493s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/ament_index/resource_index/parent_prefix_path/urscript_interfaces
+[0.493s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/ament_prefix_path.sh
+[0.493s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/ament_prefix_path.dsv
+[0.495s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/path.sh
+[0.495s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/environment/path.dsv
+[0.495s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/local_setup.bash
+[0.496s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/local_setup.sh
+[0.496s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/local_setup.zsh
+[0.496s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/local_setup.dsv
+[0.496s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/package.dsv
+[0.504s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/ament_index/resource_index/packages/urscript_interfaces
+[0.505s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.505s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.505s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.505s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.505s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.506s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.506s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.506s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfacesConfig.cmake
+[0.506s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfacesConfig-version.cmake
+[0.506s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/package.xml
+[0.508s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_generator_c.so
+[0.508s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_introspection_c.so
+[0.509s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_c.so
+[0.509s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.510s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/lib/liburscript_interfaces__rosidl_typesupport_cpp.so
+[0.535s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_generator_cExport.cmake
+[0.536s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake
+[0.536s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.536s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[0.537s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_cExport.cmake
+[0.537s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[0.538s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_generator_cppExport.cmake
+[0.539s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.539s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[0.539s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_cppExport.cmake
+[0.539s] -- Up-to-date: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/share/urscript_interfaces/cmake/urscript_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[0.549s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces

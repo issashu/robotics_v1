@@ -24,5 +24,5 @@
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ros2_game_engine/include/ros2_game_engine/communicator/Ros2CommunicatorInterface.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ros2_game_engine/include/ros2_game_engine/communicator/config/Ros2CommunicatorConfig.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ros2_game_engine/lib/cmake/ros2_game_engine/ros2_game_engineTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ros2_game_engine/lib/cmake/ros2_game_engine/ros2_game_engineTargets-debug.cmake
+/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ros2_game_engine/lib/cmake/ros2_game_engine/ros2_game_engineTargets-relwithdebinfo.cmake
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ros2_game_engine/lib/cmake/ros2_game_engine/ros2_game_engineConfig.cmake

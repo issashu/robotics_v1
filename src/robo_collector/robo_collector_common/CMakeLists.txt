@@ -15,6 +15,8 @@ find_package(robo_collector_interfaces REQUIRED)
 set(_INC_FOLDER_NAME include)
 set(_INC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/${_INC_FOLDER_NAME}/${PROJECT_NAME})
 set(_SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
+#set(BUILD_LIKE_POSITION_INDEPENDANT_CODE TRUE)
+
 
 add_library(
     ${PROJECT_NAME}
@@ -71,6 +73,7 @@ endif()
 set_target_cpp_standard(${PROJECT_NAME} 20)
 enable_target_warnings(${PROJECT_NAME})
 set_target_visibility(${PROJECT_NAME})
+enable_target_position_independent_code(${PROJECT_NAME})
 install_and_export_target(${PROJECT_NAME} ${_INC_FOLDER_NAME})
 
 

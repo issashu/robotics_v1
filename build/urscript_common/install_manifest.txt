@@ -1,3 +1,3 @@
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_common/lib/liburscript_common.a
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_common/lib/cmake/urscript_common/urscript_commonTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_common/lib/cmake/urscript_common/urscript_commonTargets-debug.cmake
+/home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_common/lib/cmake/urscript_common/urscript_commonTargets-relwithdebinfo.cmake

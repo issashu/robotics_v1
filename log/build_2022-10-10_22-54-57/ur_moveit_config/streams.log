@@ -1,0 +1,35 @@
+[0.008s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config
+[0.026s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.039s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.141s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.185s] -- Configuring done
+[0.188s] -- Generating done
+[0.189s] -- Build files have been written to: /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config
+[0.192s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config
+[0.192s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config -- -j4 -l4
+[0.230s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config -- -j4 -l4
+[0.252s] Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config
+[0.260s] -- Install configuration: "RelWithDebInfo"
+[0.260s] -- Execute custom install script
+[0.261s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[0.261s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[0.261s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[0.261s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[0.261s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[0.262s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[0.262s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[0.262s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[0.262s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[0.262s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[0.263s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[0.263s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[0.263s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[0.263s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[0.263s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[0.263s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[0.263s] -- Symlinking: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[0.271s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[0.271s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[0.271s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[0.271s] -- Up-to-date symlink: /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[0.278s] Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config

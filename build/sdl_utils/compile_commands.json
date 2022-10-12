@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/containers/FontContainer.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/FontContainer.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/FontContainer.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/containers/ResourceContainer.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/ResourceContainer.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/ResourceContainer.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/containers/SDLContainers.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/SDLContainers.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/SDLContainers.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/containers/SoundContainer.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/SoundContainer.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/SoundContainer.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/containers/FboContainer.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/FboContainer.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/FboContainer.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/containers/TextContainer.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/TextContainer.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/containers/TextContainer.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/drawing/defines/MonitorDefines.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/defines/MonitorDefines.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/defines/MonitorDefines.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/drawing/DrawParams.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/DrawParams.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/DrawParams.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/drawing/GeometryUtils.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/GeometryUtils.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/GeometryUtils.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/drawing/LoadingScreen.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/LoadingScreen.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/LoadingScreen.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/drawing/MonitorWindow.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/MonitorWindow.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/MonitorWindow.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/drawing/Renderer.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/Renderer.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/Renderer.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/drawing/RendererState.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/RendererState.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/RendererState.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/drawing/Texture.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/Texture.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/drawing/Texture.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/input/InputEvent.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/input/InputEvent.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/input/InputEvent.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/input/InputEventGenerator.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/input/InputEventGenerator.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/input/InputEventGenerator.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/input/MouseUtils.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/input/MouseUtils.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/input/MouseUtils.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/sound/SoundMixer.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/sound/SoundMixer.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/sound/SoundMixer.cpp"
+},
+{
+  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/sdl_utils",
+  "command": "/usr/bin/clang++   -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/include -I/usr/include/SDL2 -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/resource_utils/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/sdl_utils.dir/src/SDLLoader.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/SDLLoader.cpp",
+  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/lib/sdl_utils/src/SDLLoader.cpp"
+}
+]

@@ -50,5 +50,5 @@
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/include/sdl_utils/input/InputEvent.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/include/sdl_utils/input/MouseUtils.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/cmake/sdl_utils/sdl_utilsTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/cmake/sdl_utils/sdl_utilsTargets-debug.cmake
+/home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/cmake/sdl_utils/sdl_utilsTargets-relwithdebinfo.cmake
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/sdl_utils/lib/cmake/sdl_utils/sdl_utilsConfig.cmake

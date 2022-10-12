@@ -48,7 +48,7 @@
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/include/ur_client_library/default_log_handler.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/include/ur_client_library/types.h
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/lib/cmake/ur_client_library/urclTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/lib/cmake/ur_client_library/urclTargets-debug.cmake
+/home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/lib/cmake/ur_client_library/urclTargets-relwithdebinfo.cmake
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/lib/cmake/ur_client_library/ur_client_libraryConfig.cmake
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/share/ur_client_library/package.xml
 /home/parallels/CLionProjects/Homeworks/robotics_v1/install/ur_client_library/share/ament_index/resource_index/packages/ur_client_library
