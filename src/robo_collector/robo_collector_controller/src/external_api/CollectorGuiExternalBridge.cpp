@@ -41,8 +41,8 @@ void CollectorGuiExternalBridge::publishToggleHelpPage() const {
 
 void CollectorGuiExternalBridge::publishRobotAct(
     [[maybe_unused]]MoveType moveType) const {
-  MoveType msg = moveType;
-  _robotActPublisher->publish(msg);
+
+  _robotActPublisher->publish(getMoveTypeField(moveType));
   LOGR("Oh no ... nothing happened ... and the buttons remained locked. "
        "Maybe something will unlock them externally?");
 }
@@ -85,6 +85,8 @@ ErrorCode CollectorGuiExternalBridge::initCommunication() {
   rclcpp::QoS qos(queueSize);
   qos.transient_local(); //enable message latching for late joining subscribers
 
+  rclcpp::QoS latchQoS = qos;
+
   rclcpp::SubscriptionOptions subsriptionOptions;
   subsriptionOptions.callback_group = _subscriberCallbackGroup;
 
@@ -97,8 +99,8 @@ ErrorCode CollectorGuiExternalBridge::initCommunication() {
   _toggleDebugInfoPublisher = create_publisher<Empty>(TOGGLE_DEBUG_INFO_TOPIC,
       queueSize, publisherOptions);
   
-  _robotActPublisher = create_publisher<MoveType>(ROBOT_MOVE_TYPE_TOPIC, 
-      queueSize, publisherOptions);
+  _robotActPublisher = create_publisher<RobotMoveType>(ROBOT_MOVE_TYPE_TOPIC, 
+      latchQoS, publisherOptions);
   
   _enableRobotTurnSubscription = create_subscription<Empty>(
       ENABLE_ROBOT_INPUT_TOPIC, queueSize,
