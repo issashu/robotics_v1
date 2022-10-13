@@ -42,9 +42,11 @@ void CollectorGuiExternalBridge::publishToggleHelpPage() const {
 void CollectorGuiExternalBridge::publishRobotAct(
     [[maybe_unused]]MoveType moveType) const {
 
-  _robotActPublisher->publish(getMoveTypeField(moveType));
-  LOGR("Oh no ... nothing happened ... and the buttons remained locked. "
-       "Maybe something will unlock them externally?");
+  RobotMoveType msg;
+  msg.move_type = getMoveTypeField(moveType);
+  _robotActPublisher->publish(msg);
+  /*LOGR("Oh no ... nothing happened ... and the buttons remained locked. "
+       "Maybe something will unlock them externally?");*/
 }
 
 void CollectorGuiExternalBridge::publishUserAuthenticate(const UserData &data) {
@@ -81,11 +83,9 @@ ErrorCode CollectorGuiExternalBridge::initCommunication() {
   constexpr auto queueSize = 10;
   _userAuthenticatePublisher = create_publisher<UserAuthenticate>(
       USER_AUTHENTICATE_TOPIC, queueSize);
-  
+
   rclcpp::QoS qos(queueSize);
   qos.transient_local(); //enable message latching for late joining subscribers
-
-  rclcpp::QoS latchQoS = qos;
 
   rclcpp::SubscriptionOptions subsriptionOptions;
   subsriptionOptions.callback_group = _subscriberCallbackGroup;
@@ -100,7 +100,7 @@ ErrorCode CollectorGuiExternalBridge::initCommunication() {
       queueSize, publisherOptions);
   
   _robotActPublisher = create_publisher<RobotMoveType>(ROBOT_MOVE_TYPE_TOPIC, 
-      latchQoS, publisherOptions);
+      qos, publisherOptions);
   
   _enableRobotTurnSubscription = create_subscription<Empty>(
       ENABLE_ROBOT_INPUT_TOPIC, queueSize,

@@ -14,5 +14,9 @@
         "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_interfaces/lib/python3.8/site-packages",
         "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_cleaner_interfaces/lib/python3.8/site-packages",
         "/opt/ros/foxy/lib/python3.8/site-packages"
-    ]
+    ],
+    "files.associations": {
+        "functional": "cpp"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/src/robo_collector/robo_collector_controller"
 }

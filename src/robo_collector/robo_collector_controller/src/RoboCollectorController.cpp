@@ -39,7 +39,6 @@ void RoboCollectorController::handleEvent(const InputEvent &e) {
   _layout.handleEvent(e);
 }
 
-//TODO Add missing here
 void RoboCollectorController::process() {
 
 }
