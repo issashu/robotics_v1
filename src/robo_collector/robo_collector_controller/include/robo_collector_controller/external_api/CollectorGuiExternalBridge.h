@@ -47,6 +47,7 @@ private:
   rclcpp::Publisher<UserAuthenticate>::SharedPtr _userAuthenticatePublisher;
   rclcpp::Publisher<Empty>::SharedPtr _toggleHelpPagePublisher;
   rclcpp::Publisher<Empty>::SharedPtr _toggleDebugInfoPublisher;
+  rclcpp::Publisher<MoveType>::SharedPtr _robotActPublisher;
 
   rclcpp::Subscription<Empty>::SharedPtr _enableRobotTurnSubscription;
   rclcpp::Subscription<Empty>::SharedPtr _shutdownControllerSubscription;

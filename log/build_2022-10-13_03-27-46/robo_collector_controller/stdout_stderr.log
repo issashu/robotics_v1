@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target robo_collector_controller[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/RoboCollectorController.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/external_api/CollectorGuiExternalBridge.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/helpers/RoboCollectorControllerBuilder.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/main.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/helpers/RoboCollectorControllerInitHelper.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable robo_collector_controller[0m
+/usr/bin/ld: CMakeFiles/robo_collector_controller.dir/src/external_api/CollectorGuiExternalBridge.cpp.o: in function `Publisher':
+/opt/ros/foxy/include/rclcpp/publisher.hpp:81: undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<MoveType>()'
+clang: [0;1;31merror: [0mlinker command failed with exit code 1 (use -v to see invocation)[0m
+make[2]: *** [CMakeFiles/robo_collector_controller.dir/build.make:357: robo_collector_controller] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robo_collector_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
