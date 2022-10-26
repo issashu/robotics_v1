@@ -8,6 +8,8 @@
             "includePath": [
                 "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_common/include/**",
                 "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_miner_common/include/**",
+                "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/robo_miner/robo_miner_controller/include/**",
+                "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/robo_miner/robo_miner_controller/src/**",
                 "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_common/include/**",
                 "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_cleaner_common/include/**",
                 "/home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include/**",
@@ -42,7 +44,7 @@
                 "/usr/include/**"
             ],
             "name": "ROS",
-            "intelliSenseMode": "gcc-arm64",
+            "intelliSenseMode": "linux-clang-arm64",
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu11",
             "cppStandard": "c++14",

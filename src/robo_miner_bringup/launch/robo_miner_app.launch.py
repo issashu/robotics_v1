@@ -7,7 +7,7 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     """
-    Launch method to run all Robo Collector nodes at once in a single terminal
+    Launch method to run all Robo Miner nodes at once in a single terminal
 
     :return: LaunchDescription object
     """
@@ -15,7 +15,7 @@ def generate_launch_description():
 
     #------------------GUI---------------------#
 
-    gui_node_name = 'robo_collector_gui'
+    gui_node_name = 'robo_miner_gui'
     gui_config = os.path.join(get_package_share_directory(gui_node_name),
         'config',
         'params.yaml'
@@ -23,7 +23,7 @@ def generate_launch_description():
 
     print('[launch.py] - loading node ({0}) params from: ({1})'.format(gui_node_name, gui_config))
 
-    robo_collector_gui_node = Node(
+    robo_miner_gui_node = Node(
         package=gui_node_name,
         executable=gui_node_name,
         output='screen',
@@ -33,23 +33,19 @@ def generate_launch_description():
 
     #---------------CONTROLLER-----------------#
 
-    controller_node_name = 'robo_collector_controller'
-    controller_config = os.path.join(get_package_share_directory(controller_node_name),
-        'config',
-        'params.yaml'
-        )
+    controller_node_name = 'robo_miner_controller'
+    
+    print('[launch.py] - loading node ({0}) params from: N/A'.format(controller_node_name))
 
-    print('[launch.py] - loading node ({0}) params from: ({1})'.format(controller_node_name, controller_config))
-
-    robo_collector_controller_node = Node(
+    robo_miner_controller_node = Node(
         package=controller_node_name,
         executable=controller_node_name,
         output='screen',
         emulate_tty=True,
-        parameters=[controller_config]
+        parameters=[]
     )
 
-    launch_descriptor.add_action(robo_collector_gui_node)
-    launch_descriptor.add_action(robo_collector_controller_node)
+    launch_descriptor.add_action(robo_miner_gui_node)
+    launch_descriptor.add_action(robo_miner_controller_node)
 
     return launch_descriptor
