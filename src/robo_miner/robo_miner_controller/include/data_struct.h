@@ -1,0 +1,8 @@
+//
+// Created by parallels on 10/23/22.
+//
+
+#ifndef ROBO_MINER_CONTROLLER_DATA_STRUCT_H
+#define ROBO_MINER_CONTROLLER_DATA_STRUCT_H
+
+#endif //ROBO_MINER_CONTROLLER_DATA_STRUCT_H
