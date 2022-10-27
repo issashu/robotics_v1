@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_typesupport_fastrtps_cpp/robo_cleaner_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

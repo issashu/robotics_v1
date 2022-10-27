@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_dev/urscript/urscript_common/include/urscript_common/message_helpers/UrScriptMessageHelpers.h

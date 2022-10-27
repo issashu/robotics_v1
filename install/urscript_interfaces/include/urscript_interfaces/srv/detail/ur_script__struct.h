@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces/rosidl_generator_c/urscript_interfaces/srv/detail/ur_script__struct.h

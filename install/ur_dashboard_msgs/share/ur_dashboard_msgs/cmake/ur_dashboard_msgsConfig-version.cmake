@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_dashboard_msgs/ament_cmake_core/ur_dashboard_msgsConfig-version.cmake

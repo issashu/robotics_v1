@@ -1,4 +1,0 @@
-Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library -- -j4 -l4
-Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library -- -j4 -l4
-Invoking command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library
-Invoked command in '/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_client_library

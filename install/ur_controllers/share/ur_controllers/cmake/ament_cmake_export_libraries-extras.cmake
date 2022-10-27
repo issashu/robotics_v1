@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_controllers/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

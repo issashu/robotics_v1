@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_bringup/ament_cmake_core/robo_collector_bringupConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_collector_controller/ament_cmake_core/robo_collector_controllerConfig-version.cmake

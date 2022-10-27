@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_typesupport_fastrtps_cpp/robo_cleaner_interfaces/msg/detail/robot_move_type__rosidl_typesupport_fastrtps_cpp.hpp

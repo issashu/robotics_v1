@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/ur_moveit_config/ament_cmake_core/ur_moveit_configConfig-version.cmake

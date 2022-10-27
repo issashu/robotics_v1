@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_driver/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/force_torque_sensor_broadcaster.hpp

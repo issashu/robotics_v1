@@ -1,7 +1,0 @@
-[35m[1mScanning dependencies of target robo_collector_controller[0m
-[  9%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/RoboCollectorController.cpp.o[0m
-[ 27%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/external_api/CollectorGuiExternalBridge.cpp.o[0m
-[ 27%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/helpers/RoboCollectorControllerBuilder.cpp.o[0m
-[ 36%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/main.cpp.o[0m
-[ 45%] [32mBuilding CXX object CMakeFiles/robo_collector_controller.dir/src/helpers/RoboCollectorControllerInitHelper.cpp.o[0m
-[ 54%] [32m[1mLinking CXX executable robo_collector_controller[0m

@@ -1,8 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_adapter/robo_cleaner_interfaces:msg/BatteryStatus.idl
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_adapter/robo_cleaner_interfaces:msg/InitialRobotState.idl
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_adapter/robo_cleaner_interfaces:msg/RobotMoveType.idl
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_adapter/robo_cleaner_interfaces:msg/UserAuthenticate.idl
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_adapter/robo_cleaner_interfaces:srv/ChargeBattery.idl
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_adapter/robo_cleaner_interfaces:srv/QueryBatteryStatus.idl
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_adapter/robo_cleaner_interfaces:srv/QueryInitialRobotState.idl
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/robo_cleaner_interfaces/rosidl_adapter/robo_cleaner_interfaces:action/RobotMove.idl

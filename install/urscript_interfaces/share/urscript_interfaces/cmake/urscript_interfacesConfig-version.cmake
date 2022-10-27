@@ -1,1 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_interfaces/ament_cmake_core/urscript_interfacesConfig-version.cmake

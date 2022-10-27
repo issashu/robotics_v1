@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/parallels/CLionProjects/Homeworks/robotics_v1/build/urscript_common",
-  "command": "/usr/bin/clang++  -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_dev/urscript/urscript_common/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/urscript_interfaces/include -isystem /home/parallels/CLionProjects/Homeworks/robotics_v1/install/utils/include -isystem /opt/ros/foxy/include  -O2 -g -DNDEBUG   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wshadow -Wpointer-arith -Wcast-align -Wcast-qual -Wunused-parameter -Wdouble-promotion -Wnull-dereference -std=c++2a -o CMakeFiles/urscript_common.dir/src/message_helpers/UrScriptMessageHelpers.cpp.o -c /home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_dev/urscript/urscript_common/src/message_helpers/UrScriptMessageHelpers.cpp",
-  "file": "/home/parallels/CLionProjects/Homeworks/robotics_v1/src/ur_dev/urscript/urscript_common/src/message_helpers/UrScriptMessageHelpers.cpp"
-}
-]

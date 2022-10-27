@@ -1,3 +1,0 @@
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_common/lib/librobo_collector_common.a
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_common/lib/cmake/robo_collector_common/robo_collector_commonTargets.cmake
-/home/parallels/CLionProjects/Homeworks/robotics_v1/install/robo_collector_common/lib/cmake/robo_collector_common/robo_collector_commonTargets-relwithdebinfo.cmake
