@@ -3,7 +3,7 @@
 
 constexpr auto ROBOT_MOVE_SERVICE = "move_robot";
 
-RoboMoveClientNode::RoboMoveClientNode(char* NodeName,const MoveType& move)
+RoboMoveClientNode::RoboMoveClientNode(const char* NodeName,const MoveType& move)
 : Node(NodeName), commandReceived(move) {
     RCLCPP_INFO(this->get_logger(), "Initialised with %d move", commandReceived);
 }
