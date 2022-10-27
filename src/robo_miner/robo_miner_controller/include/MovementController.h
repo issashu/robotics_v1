@@ -14,7 +14,7 @@ using RobotMoveFuture = rclcpp::Client<RobotMove>::SharedFuture;
 class RoboMoveClientNode : public rclcpp::Node {
 
 public:
-    RoboMoveClientNode (const MoveType& move); 
+    RoboMoveClientNode (char* NodeName,const MoveType& move); 
 
     RobotMoveFuture CallRoboMoveService(); 
 

@@ -9,10 +9,10 @@ int main(int argc, char **argv) {
     rclcpp::init(argc, argv);
     std::vector<std::shared_ptr<RoboMoveClientNode>> movesList;
 
-    auto node = std::make_shared<RoboMoveClientNode>(MoveType::FORWARD);
-    auto node1 = std::make_shared<RoboMoveClientNode>(MoveType::ROTATE_RIGHT);
-    auto node2 = std::make_shared<RoboMoveClientNode>(MoveType::FORWARD);
-    auto node3 = std::make_shared<RoboMoveClientNode>(MoveType::FORWARD);
+    auto node = std::make_shared<RoboMoveClientNode>("Node", MoveType::FORWARD);
+    auto node1 = std::make_shared<RoboMoveClientNode>("Node1", MoveType::ROTATE_RIGHT);
+    auto node2 = std::make_shared<RoboMoveClientNode>("Node2", MoveType::FORWARD);
+    auto node3 = std::make_shared<RoboMoveClientNode>("Node3", MoveType::FORWARD);
      
     movesList.push_back(node);
     movesList.push_back(node1);
@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
     movesList.push_back(node3);
 
     for(std::shared_ptr<RoboMoveClientNode> item : movesList){
-        thread = rclcpp::spin(item);
+        rclcpp::spin_until_future_complete(item, item->CallRoboMoveService());
     }
     
     rclcpp::shutdown();
