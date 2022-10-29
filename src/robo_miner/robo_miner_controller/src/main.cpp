@@ -13,27 +13,28 @@
  */
 int main(int argc, char **argv) {
     rclcpp::init(argc, argv);
-    std::vector<std::shared_ptr<RoboMoveClientNode>> movesList;
-    sleep(5);
+    
+    std::vector<MoveType> movesList;
+    MoveCallTimeout timeout = std::chrono::seconds(1);
+    auto ControllerNode = std::make_shared<RoboMoveClientNode>("RoboMoveController");
 
-    auto node = std::make_shared<RoboMoveClientNode>("Node", MoveType::FORWARD);
-    auto node1 = std::make_shared<RoboMoveClientNode>("Node1", MoveType::ROTATE_RIGHT);
-    auto node2 = std::make_shared<RoboMoveClientNode>("Node2", MoveType::FORWARD);
-    auto node3 = std::make_shared<RoboMoveClientNode>("Node3", MoveType::FORWARD);
-     
-    movesList.push_back(node);
-    movesList.push_back(node1);
-    movesList.push_back(node2);
-    movesList.push_back(node3);
+    //FIXME The first call is always a dummy one. For some reason the first call always fails. Timeout and wait did not help, so it is not due to service being down
+    movesList.push_back(MoveType::FORWARD);
+    movesList.push_back(MoveType::FORWARD);
+    movesList.push_back(MoveType::ROTATE_RIGHT);
+    movesList.push_back(MoveType::FORWARD);
+    movesList.push_back(MoveType::FORWARD);
 
-    for(std::shared_ptr<RoboMoveClientNode> item : movesList) {
-        if (rclcpp::spin_until_future_complete(item, item->CallRoboMoveService()) == rclcpp::FutureReturnCode::SUCCESS){
-            sleep(2);
-            continue;
-        }
-        else{
-            printf("I am missing a logger! Yay!");
-
+    for(MoveType item : movesList) {
+        auto response = ControllerNode->CallRoboMoveService(item, timeout);
+        
+        if(response!=nullptr){
+            auto test = response->robot_position_response.surrounding_tiles;
+            if(!test.empty()){
+                for (auto i: test){
+                    printf("Tile: %d\n", i);
+                }
+            }
         }
     }
     
